@@ -1,0 +1,13 @@
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\bin\Debug\Nhom5_QLKS.exe.config
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\bin\Debug\Nhom5_QLKS.exe
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\bin\Debug\Nhom5_QLKS.pdb
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\obj\Debug\Nhom5_QLKS.csproj.AssemblyReference.cache
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\obj\Debug\Nhom5_QLKS.Properties.Resources.resources
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\obj\Debug\Nhom5_QLKS.csproj.GenerateResource.cache
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\obj\Debug\Nhom5_QLKS.csproj.CoreCompileInputs.cache
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\obj\Debug\Nhom5_QLKS.exe
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\obj\Debug\Nhom5_QLKS.pdb
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\obj\Debug\Nhom5_QLKS.QLTK_Thuan.resources
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\obj\Debug\Nhom5_QLKS.Login_Thuan.resources
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\obj\Debug\Nhom5_QLKS.Menu_Thuan.resources
+D:\C##\WDF\Nhom5_QLKS\Nhom5_QLKS\obj\Debug\Nhom5_QLKS.Changer_Pw_Thuan.resources

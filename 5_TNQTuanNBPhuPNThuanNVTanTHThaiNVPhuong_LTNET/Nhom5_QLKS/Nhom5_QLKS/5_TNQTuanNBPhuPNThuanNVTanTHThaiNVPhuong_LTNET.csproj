@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1FD2180-3869-4968-BBBC-0E10ECD326D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Nhom5_QLKS</RootNamespace>
+    <AssemblyName>Nhom5_QLKS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Baocaoluong_Phu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Baocaoluong_Phu.Designer.cs">
+      <DependentUpon>Baocaoluong_Phu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chuoiketnoi.cs" />
+    <Compile Include="chuyenso_thanhchu.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm _ThanhToan_tuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm _ThanhToan_tuan.Designer.cs">
+      <DependentUpon>frm _ThanhToan_tuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_baocaohoadon1_phu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_baocaohoadon1_phu.Designer.cs">
+      <DependentUpon>frm_baocaohoadon1_phu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_dichvu_thai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_dichvu_thai.Designer.cs">
+      <DependentUpon>frm_dichvu_thai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DV_tuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DV_tuan.Designer.cs">
+      <DependentUpon>frm_DV_tuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_loaiphong_phu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_loaiphong_phu.Designer.cs">
+      <DependentUpon>frm_loaiphong_phu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_luongnv_Phuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_luongnv_Phuong.Designer.cs">
+      <DependentUpon>frm_luongnv_Phuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Phong_Phu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Phong_Phu.Designer.cs">
+      <DependentUpon>frm_Phong_Phu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_QLKH_tan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_QLKH_tan.Designer.cs">
+      <DependentUpon>frm_QLKH_tan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_QLNV_tan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_QLNV_tan.Designer.cs">
+      <DependentUpon>frm_QLNV_tan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ThuePhong_Tuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ThuePhong_Tuan.Designer.cs">
+      <DependentUpon>frm_ThuePhong_Tuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Thuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Thuan.Designer.cs">
+      <DependentUpon>Login_Thuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Thuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Thuan.Designer.cs">
+      <DependentUpon>Menu_Thuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom5_QLKSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nhom5_QLKSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Nhom5_QLKSDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nhom5_QLKSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTK_Thuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLTK_Thuan.Designer.cs">
+      <DependentUpon>QLTK_Thuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Changer_Pw_Thuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Changer_Pw_Thuan.Designer.cs">
+      <DependentUpon>Changer_Pw_Thuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="phanquyen.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemeColor.cs" />
+    <EmbeddedResource Include="Baocaoluong_Phu.resx">
+      <DependentUpon>Baocaoluong_Phu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm _ThanhToan_tuan.resx">
+      <DependentUpon>frm _ThanhToan_tuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_baocaohoadon1_phu.resx">
+      <DependentUpon>frm_baocaohoadon1_phu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_dichvu_thai.resx">
+      <DependentUpon>frm_dichvu_thai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DV_tuan.resx">
+      <DependentUpon>frm_DV_tuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_loaiphong_phu.resx">
+      <DependentUpon>frm_loaiphong_phu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_luongnv_Phuong.resx">
+      <DependentUpon>frm_luongnv_Phuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Phong_Phu.resx">
+      <DependentUpon>frm_Phong_Phu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_QLKH_tan.resx">
+      <DependentUpon>frm_QLKH_tan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_QLNV_tan.resx">
+      <DependentUpon>frm_QLNV_tan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ThuePhong_Tuan.resx">
+      <DependentUpon>frm_ThuePhong_Tuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Thuan.resx">
+      <DependentUpon>Login_Thuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Thuan.resx">
+      <DependentUpon>Menu_Thuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLTK_Thuan.resx">
+      <DependentUpon>QLTK_Thuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Changer_Pw_Thuan.resx">
+      <DependentUpon>Changer_Pw_Thuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Nhom5_QLKSDataSet.xsc">
+      <DependentUpon>Nhom5_QLKSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Nhom5_QLKSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Nhom5_QLKSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Nhom5_QLKSDataSet.xss">
+      <DependentUpon>Nhom5_QLKSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Nhom5_QLKSDataSet1.xsc">
+      <DependentUpon>Nhom5_QLKSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Nhom5_QLKSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Nhom5_QLKSDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Nhom5_QLKSDataSet1.xss">
+      <DependentUpon>Nhom5_QLKSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-gear-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\input.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\input1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passkey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\value.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-service.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overbooked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-service1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turn-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-button-green-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
